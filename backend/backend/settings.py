@@ -11,7 +11,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '62.84.122.58', 'niros.zapto.org']
 
 
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
@@ -23,6 +22,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
 ]
+
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
